@@ -1,0 +1,110 @@
+/*Fuentes Importadas*/
+@font-face { font-family: Titulos; src: url(fuentes/BODONIB.TTF);}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html { background-color: #f3dedb;}
+
+
+/*Clases*/
+/*.navbar-expand-lg .navbar-nav .nav-link {
+    color: #c28d89;
+}*/
+.ubicacionnav {
+    justify-content: center;
+}
+
+.letralinda {
+    color: #c28d89;
+    font-family: Titulos;
+    font-size: xx-large;
+}
+
+.generalbackground { 
+    background-color: #f3dedb;
+}
+
+.size { width: 100%;}
+
+.titles {
+    text-align: center;
+    font-family: Titulos;
+}
+
+.backgroundaboutemma {
+    background-color: #d1aea8;
+}
+
+.patron1 { 
+    background-image: url(imgs/Patrón1.jpg);
+    width: max-content;
+    margin: 0;
+}
+
+.patron2 {
+    background-image: url(imgs/Patrón2.jpg);
+    margin: 0;
+}
+
+.patron3 {
+    background-image: url(imgs/Patrón3.jpg);
+    margin: 0;
+}
+
+.fondoaboutemma {
+    background-color: #e2cac6;
+}
+
+.containerpelis {
+    background-color: #edd5cb;
+}
+
+.txt {
+    text-align: center;
+    padding-top: 2%;    
+}
+
+.centert {
+    align-self: center;
+}
+
+.containerpremios {
+    background-color: #fef1e8;
+}
+
+.pad [class*="col-"] {
+    padding: 0;
+}
+
+.backgroundonu {
+    background-color: #e9d0c8;
+}
+
+.backgroundcont {
+    background-color: #ece7e6;
+}
+
+.footer {
+    text-align: center;
+    font-size: large;
+    background-color: #d1aea8;
+}
+
+.onu {
+    color: #aa948d;
+}
+
+.logros {
+    color: #746157;
+}
+
+.peliculas {
+    color: #b68768;
+}
+
+.abtemma {
+    color: #aa857e;
+}
